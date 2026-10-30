@@ -1,6 +1,6 @@
 # ENG_315_GroupProject-The_Compensated
 
-**Objective and Motivation: We are analyzing the veteran’s association's (VA) total distribution of compensated funds throughout the fiscal year of 2025, excluding the 149,077 recipients who were taken off the program during that year. The motivation behind this program is to understand how VA benefits are spread throughout our country. This dataset gives us an insight into what countries receive the greatest number of benefits, what kind of recipients there are, including biological data such as age or gender, and how much certain recipients are receiving. The three questions we are asking are which state has the most US disability compensation recipients, what is the ratio of male to female veteran disability compensation, and what is the distribution of compensation over age groups of 17-44, 45-64, and 65 + year old recipients?
+**Objective and Motivation:** We are analyzing the veteran’s association's (VA) total distribution of compensated funds throughout the fiscal year of 2025, excluding the 149,077 recipients who were taken off the program during that year. The motivation behind this program is to understand how VA benefits are spread throughout our country. This dataset gives us an insight into what countries receive the greatest number of benefits, what kind of recipients there are, including biological data such as age or gender, and how much certain recipients are receiving. The three questions we are asking are which state has the most US disability compensation recipients, what is the ratio of male to female veteran disability compensation, and what is the distribution of compensation over age groups of 17-44, 45-64, and 65 + year old recipients?
 
 ### Sophia: Male-to-Female Ratio of Disability Compensation Recipients
 
@@ -37,3 +37,21 @@
 - **Total Sum for each state:** sums total number of recipients in each state
   
 - **Sort:** Sorting will create a list from the states in values of their total sum showing the highest valued state in terms of # of disability recipients
+  
+### Eduardo: Age Distribution of Disability Compensation Recipients
+
+**Question:** How are US disability compensation recipients distributed across age groups?
+
+**Method:** Utilizing the Disability Compensation Recipients database we assigned ourselves and using the NumPy and pandas libraries within python, calculate the total recipients of each age group (17-44, 45-64 and 65+), contrast them with the overall total recipients and calculate percentages for each of the age groups compared to the total.
+
+**Statistical Test:** Use a chi-square goodness-of-fit test to determine if the results of the calculation fit our expected output. Said previous output can be determined manually with a variable and justified.
+
+- **Null hypothesis:** The recipient proportions match the selected expected age variety proportions.
+- **Alternative hypothesis:** The recipient proportions are skewed from the expected results.
+- **Significance level:** 0.05. A p-value below 0.05 indicates a statistically significant difference.      
+
+**Metrics:** Overall total recipients, the total per each age group, the percentage of each agegroup compared to the total, chi-square statistic, and p-value.
+
+**Tools:** Python with pandas for organizing and calculating the data, SciPy’s `chisquare()` function for the test, and matplotlib for visualization.
+
+**Plot:** A Pie graph comparing the percentages of each age group
