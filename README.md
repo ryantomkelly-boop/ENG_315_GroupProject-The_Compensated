@@ -1,4 +1,7 @@
 # ENG_315_GroupProject-The_Compensated
+
+**Objective and Motivation: We are analyzing the veteran’s association's (VA) total distribution of compensated funds throughout the fiscal year of 2025, excluding the 149,077 recipients who were taken off the program during that year. The motivation behind this program is to understand how VA benefits are spread throughout our country. This dataset gives us an insight into what countries receive the greatest number of benefits, what kind of recipients there are, including biological data such as age or gender, and how much certain recipients are receiving. The three questions we are asking are which state has the most US disability compensation recipients, what is the ratio of male to female veteran disability compensation, and what is the distribution of compensation over age groups of 17-44, 45-64, and 65 + year old recipients?
+
 ### Sophia: Male-to-Female Ratio of Disability Compensation Recipients
 
 **Question:** What is the ratio of male to female veterans receiving disability compensation?
@@ -16,3 +19,21 @@
 **Tools:** Python with pandas for organizing and calculating the data, SciPy’s `chisquare()` function for the test, and matplotlib for visualization.
 
 **Plot:** A grouped bar graph comparing observed and expected male and female recipient counts.
+
+## Ryan: State with highest total disability compensation recipients
+
+**Question: Which state has the most US disability compensation recipients? 
+
+**Method: The task required to complete the question is to make a code that can process the columns containing the number of recipients within each country and then summarize the total numbers between countries within a designated state. This process requires using pandas, which will allow the exported csv file’s column values to be read. Within this csv file, there are U.S territories which should not be accounted for, this is included in a different column comparatively to state/counties but should not be inputted in. For the correctly interpreted value, there is a column in the csv file labeled, “Total: Disability Compensation Recipients”, this shows the total value of recipients within a county. This must be expanded and summed together in groups of respected states. There is a group row containing each state, by grouping together the states and summing their combined county values, we will arrive at each state’s total disability compensation recipients. From this point on, we can take the total raw count of each state and have the code display the highest valued state in terms of total recipients.
+
+**Test:** Creating a sorted list in ascending order of total number of disability recipients, and revealing the state with the highest value
+
+- **Pandas: Allows for code to read data points derived from columns/ rows
+  
+- **Column selection: Selecting Total: Disability Compensation Recipients to derive total number of disability recipients in each county
+  
+- **State restriction: group states together to remove U.S territories from total set
+  
+- **Total. Sum for each state: sums total number of recipients in each state
+  
+- **Sort: Sorting will create a list from the states in values of their total sum showing the highest valued state in terms of # of disability recipients
