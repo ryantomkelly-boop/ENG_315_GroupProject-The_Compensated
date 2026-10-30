@@ -22,18 +22,18 @@
 
 ### Ryan: State with highest total disability compensation recipients
 
-**Question: Which state has the most US disability compensation recipients? 
+**Question:** Which state has the most US disability compensation recipients? 
 
-**Method: The task required to complete the question is to make a code that can process the columns containing the number of recipients within each country and then summarize the total numbers between countries within a designated state. This process requires using pandas, which will allow the exported csv file’s column values to be read. Within this csv file, there are U.S territories which should not be accounted for, this is included in a different column comparatively to state/counties but should not be inputted in. For the correctly interpreted value, there is a column in the csv file labeled, “Total: Disability Compensation Recipients”, this shows the total value of recipients within a county. This must be expanded and summed together in groups of respected states. There is a group row containing each state, by grouping together the states and summing their combined county values, we will arrive at each state’s total disability compensation recipients. From this point on, we can take the total raw count of each state and have the code display the highest valued state in terms of total recipients.
+**Method:** The task required to complete the question is to make a code that can process the columns containing the number of recipients within each country and then summarize the total numbers between countries within a designated state. This process requires using pandas, which will allow the exported csv file’s column values to be read. Within this csv file, there are U.S territories which should not be accounted for, this is included in a different column comparatively to state/counties but should not be inputted in. For the correctly interpreted value, there is a column in the csv file labeled, “Total: Disability Compensation Recipients”, this shows the total value of recipients within a county. This must be expanded and summed together in groups of respected states. There is a group row containing each state, by grouping together the states and summing their combined county values, we will arrive at each state’s total disability compensation recipients. From this point on, we can take the total raw count of each state and have the code display the highest valued state in terms of total recipients.
 
 **Test:** Creating a sorted list in ascending order of total number of disability recipients, and revealing the state with the highest value
 
-- **Pandas: Allows for code to read data points derived from columns/ rows
+- **Pandas:** Allows for code to read data points derived from columns/ rows
   
-- **Column selection: Selecting Total: Disability Compensation Recipients to derive total number of disability recipients in each county
+- **Column selection:** Selecting Total: Disability Compensation Recipients to derive total number of disability recipients in each county
   
-- **State restriction: group states together to remove U.S territories from total set
+- **State restriction:** group states together to remove U.S territories from total set
   
-- **Total. Sum for each state: sums total number of recipients in each state
+- **Total Sum for each state:** sums total number of recipients in each state
   
-- **Sort: Sorting will create a list from the states in values of their total sum showing the highest valued state in terms of # of disability recipients
+- **Sort:** Sorting will create a list from the states in values of their total sum showing the highest valued state in terms of # of disability recipients
