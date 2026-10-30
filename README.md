@@ -20,7 +20,7 @@
 
 **Plot:** A grouped bar graph comparing observed and expected male and female recipient counts.
 
-## Ryan: State with highest total disability compensation recipients
+### Ryan: State with highest total disability compensation recipients
 
 **Question: Which state has the most US disability compensation recipients? 
 
