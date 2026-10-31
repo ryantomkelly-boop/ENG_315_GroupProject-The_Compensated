@@ -2,7 +2,7 @@
 
 **Objective and Motivation(sub-task-2):** We are analyzing the veteran’s association's (VA) total distribution of compensated funds throughout the fiscal year of 2025, excluding the 149,077 recipients who were taken off the program during that year. The motivation behind this program is to understand how VA benefits are spread throughout our country. This dataset gives us an insight into what countries receive the greatest number of benefits, what kind of recipients there are, including biological data such as age or gender, and how much certain recipients are receiving. The three questions we are asking are which state has the most US disability compensation recipients, what is the ratio of male to female veteran disability compensation, and what is the distribution of compensation over age groups of 17-44, 45-64, and 65 + year old recipients?
 
-#Implementation Details (sub-task-3 and sub-task-4):
+Implementation Details (sub-task-3 and sub-task-4):
 
 ### Sophia: Male-to-Female Ratio of Disability Compensation Recipients
 
