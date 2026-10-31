@@ -1,7 +1,8 @@
 # ENG 315 Group Project-The Compensated (sub-task-1)
 
 **Objective and Motivation(sub-task-2):** We are analyzing the veteran’s association's (VA) total distribution of compensated funds throughout the fiscal year of 2025, excluding the 149,077 recipients who were taken off the program during that year. The motivation behind this program is to understand how VA benefits are spread throughout our country. This dataset gives us an insight into what countries receive the greatest number of benefits, what kind of recipients there are, including biological data such as age or gender, and how much certain recipients are receiving. The three questions we are asking are which state has the most US disability compensation recipients, what is the ratio of male to female veteran disability compensation, and what is the distribution of compensation over age groups of 17-44, 45-64, and 65 + year old recipients?
-**Implementation Details (sub-task-3 and sub-task-4):
+
+#Implementation Details (sub-task-3 and sub-task-4):
 
 ### Sophia: Male-to-Female Ratio of Disability Compensation Recipients
 
@@ -59,12 +60,10 @@
 
 
 
-In this section, you will go over the methods (with metrics, tools, and plots) to be used to answer the questions. This is the main body of the repo.
-The following also be added in the coming phases
-Add any screenshot that you feel is necessary to show the project's complexity, such as block diagrams, snippets of the code that carries explicitly a method, the top-level code, etc.
-**Results(sub-task-6)Answers to the Questions:
+
+###Results(sub-task-6)Answers to the Questions:
 Just have the title as a placeholder to be populated later
-**Conclusions(sub-task-7) :
+###Conclusions(sub-task-7) :
 Just have the title as a placeholder to be populated later
 #Actions that need to be completed:
 Just have the title as a placeholder to be populated later
