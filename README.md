@@ -68,7 +68,7 @@ Conclusions(sub-task-7):
 
 Just have the title as a placeholder to be populated later
 
-#Actions that need to be completed:
+Actions that need to be completed:
 
 Just have the title as a placeholder to be populated later
 
