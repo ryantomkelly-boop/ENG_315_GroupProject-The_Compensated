@@ -1,0 +1,18 @@
+# Task 1: Which state has the most US disability compensation recipients?
+
+import pandas as pd 
+
+df = pd.read_csv(r'C:\Users\CS-Loaner\Downloads\export.csv', dtype=str)
+
+col = 'Total: Disability Compensation Recipients'
+# Group by state and sum the total disability compensation recipients
+df[col] = pd.to_numeric(df[col].str.replace(',', ''), errors='coerce')
+
+state_totals = df.groupby('State')[col].sum().sort_values(ascending=False)
+# Find the state with the maximum total disability compensation recipients
+
+max_state = state_totals.idxmax()  # Get the state with the maximum value
+
+
+print(state_totals.head(5))
+print(f"\nThe state with the most US disability compensation recipients is: {state_totals.idxmax()}")
